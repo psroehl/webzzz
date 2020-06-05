@@ -2,11 +2,6 @@ import React, { useState } from 'react';
 import '../Css/Menu.css';
 import '../Css/Left.css';
 import '../Css/Home.css';
-import Menu from './Menu';
-import Top from './Top';
-import TopA from './Top';
-import logor from '../img/logosticker.png';
-import tab from '../img/about.png';
 import { Link } from '@reach/router';
 
 const LeftA = (props) => {

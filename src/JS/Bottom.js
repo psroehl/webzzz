@@ -2,13 +2,8 @@ import React, { useState } from 'react';
 import '../Css/Menu.css';
 import '../Css/Bottom.css';
 import '../Css/Top.css';
-import Menu from './Menu';
-import logor from '../img/logosticker.png';
-import tab from '../img/about.png';
-import LeftA from '../JS/Left.js';
 import Portof from '../img/portfolio.png';
 import { Link } from '@reach/router';
-import Portfolio from '../JS/Portfolio.js';
 
 const BottomA = (props) => {
 
@@ -44,7 +39,7 @@ const BottomA = (props) => {
         
             <div className="Bottom">
            
-            <img src={Portof} className="picon"></img>
+            <img alt="picon" src={Portof} className="picon"></img>
               <div className="pth">
               {state.className ? <Link className="porttext" onClick={toggleclassName} to="/portfolio">Portfolio</Link> : <Link className="porttext" onClick={toggleclassName} to="/">Close</Link> }
               </div>

@@ -47,8 +47,8 @@ const TopA = (props) => {
         {state.className ?  <Link className="tttext" onClick={toggleclassName} to ="/about">About</Link> : <Link className="tttext" onClick={toggleclassName} to = "/">Close</Link> }
 </div>
           <div className="picholder">
-            <img src={tab} className="ticn"/>
-            <img src={logor} className="logoe"/>
+            <img src={tab} alt="tab" className="ticn"/>
+            <img src={logor} alt="logo" className="logoe"/>
           </div>
         </div>
             

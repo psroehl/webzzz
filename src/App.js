@@ -1,11 +1,6 @@
 import React from 'react';
 import './App.css';
-import logor from './img/logosticker.png';
-import Portof from './img/portfolio.png';
-import res from './img/resume.png';
-import tab from './img/about.png';
 import Home from './JS/Home.js';
-import LeftA from './JS/Left';
 import { Router } from '@reach/router';
 import Menu from './JS/Menu.js';
 import About from './JS/About';

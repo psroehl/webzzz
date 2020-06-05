@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import '../Css/Resume.css';
 import rea from '../img/images/reactpng.png';
 import jsss from '../img/images/vector-javascript-14.png';
@@ -23,20 +23,7 @@ import dojo from '../img/images/Dojo.png';
 
 const Resume = (props) => {
 
-  const [state, setState] = useState({
-    className: true
-  });
-
-  const toggleclassName = () => {
-    props.test();
-    if (state.className){
-      setState ({ 
-        className: false });
-    } else {
-        setState ({ 
-          className: true})
-      }
-  }
+  
 
       return (
         <div className="aefty">
@@ -61,27 +48,27 @@ const Resume = (props) => {
                     </div>
                     <div>
                       <div className="ioo">
-                        <img className="reactimg" src={rea}></img>
+                        <img alt="reacti" className="reactimg" src={rea}></img>
                           <h1 className="io1">React</h1>
                       </div>
                       <div className="ioo">
-                        <img className="reactimg" src={jsss}></img>
+                        <img alt="reactia" className="reactimg" src={jsss}></img>
                           <h1 className="io1">JavaScript</h1>
                       </div>
                       <div className="ioo">
-                        <img className="reactimg" src={angular}></img>
+                        <img alt="reactiaa" className="reactimg" src={angular}></img>
                           <h1 className="io1">Angular</h1>
                       </div>
                       <div className="ioo">
-                        <img className="reactimg" src={o365}></img>
+                        <img alt="reactiaazz" className="reactimg" src={o365}></img>
                           <h1 className="io1">O365</h1>
                       </div>
                       <div className="ioo">
-                        <img className="reactimg" src={csharp}></img>
+                        <img alt="reactiswee" className="reactimg" src={csharp}></img>
                           <h1 className="io1">C#</h1>
                       </div>
                       <div className="ioo">
-                        <img className="reactimg" src={csspng}></img>
+                        <img alt="reacti221" className="reactimg" src={csspng}></img>
                           <h1 className="io1">CSS</h1>
                       </div>
 
@@ -90,15 +77,15 @@ const Resume = (props) => {
                           <h1 className="io1">Adobe CC</h1>
                       </div> */}
                       <div className="ioo">
-                        <img className="reactimg" src={htmlp}></img>
+                        <img alt="reacti661" className="reactimg" src={htmlp}></img>
                           <h1 className="io1">HTML</h1>
                       </div>
                       <div className="ioo">
-                        <img className="reactimg" src={mndb}></img>
+                        <img alt="reacti21w" className="reactimg" src={mndb}></img>
                           <h1 className="io1">Mongo DB</h1>
                       </div>
                       <div className="ioo1">
-                        <img className="reactimg" src={nodep}></img>
+                        <img alt="reactixxsa" className="reactimg" src={nodep}></img>
                           <h1 className="io1">Node</h1>
                       </div>
 
@@ -114,8 +101,8 @@ const Resume = (props) => {
                           <div className="dmark4"></div>
                       </div> */}
                         <div className="tl1">
-                          <h1 className="supertl1"></h1>
-                              <div className="subtl1"><h2 className="altl1"> <img src={asu} id="toppic"></img> </h2>
+                          {/* <h1 className="supertl1"></h1> */}
+                              <div className="subtl1"><h2 className="altl1"> <img alt="reactiwwew" src={asu} id="toppic"></img> </h2>
                             
                             <div className="lester">
                               <ul>Years: 2011-2012</ul>
@@ -126,8 +113,8 @@ const Resume = (props) => {
                               </div>
                         </div>
                         <div className="tl2"> 
-                          <h1 className="supertl2"></h1>
-                              <div className="subtl2"><h2 className="altl2"><img className="meha" src={whotel} id="toppic"></img><img className="mayapic" src={maya}></img></h2>
+                          {/* <h1 className="supertl2"></h1> */}
+                              <div className="subtl2"><h2 className="altl2"><img alt="reacti00192" className="meha" src={whotel} id="toppic"></img><img className="mayapic" src={maya} alt="reacti12324hg"></img></h2>
                              
                             <div className="lester">
                               <ul>Years: 2012-2014</ul>
@@ -140,8 +127,8 @@ const Resume = (props) => {
                               
                       </div> 
                       <div className="tl3">
-                          <h1 className="supertl3"></h1>
-                              <div className="subtl3"><h1 className="altl3"><img src={ry} id="toppic"></img></h1> 
+                          {/* <h1 className="supertl3"></h1> */}
+                              <div className="subtl3"><h1 className="altl3"><img alt="reacti3233s" src={ry} id="toppic"></img></h1> 
                              
                             <div className="lester">
                               <ul>Years: 2010-2011</ul>
@@ -154,8 +141,8 @@ const Resume = (props) => {
                           </div>
                       </div> 
                       <div className="tl4">
-                          <h1 className="supertl4"></h1>
-                              <div className="subtl4"><h1 className="altl4"><img src={ore} id="toppic"></img></h1>
+                          {/* <h1 className="supertl4"></h1> */}
+                              <div className="subtl4"><h1 className="altl4"><img alt="reactiasdf" src={ore} id="toppic"></img></h1>
                          
                             <div className="lester">
                             <ul>Years: 2014-2016</ul>
@@ -166,8 +153,8 @@ const Resume = (props) => {
                               </div>
                       </div> 
                       <div className="tl5">
-                          <h1 className="supertl5"></h1>
-                              <div className="subtl5"><h1 className="altl5"><img src={ins}id="toppic"></img> </h1>
+                          {/* <h1 className="supertl5"></h1> */}
+                              <div className="subtl5"><h1 className="altl5"><img alt="reactiassd21" src={ins}id="toppic"></img> </h1>
                             
                             <div className="lester">
                               <ul>Location: Tempe, Arizona</ul>
@@ -178,8 +165,8 @@ const Resume = (props) => {
                               </div>
                       </div> 
                       <div className="tl6">
-                          <h1 className="supertl6"></h1>
-                            <div className="subtl6"><h1 className="altl6"></h1>
+                          {/* <h1 className="supertl6"></h1> */}
+                            <div className="subtl6"><h1 className="altl6">Allied Energy</h1>
                             <div className="lester">
                               <ul>Location: Scottsdale, Arizona</ul>
                               <ul>Company Type: Fuel Sales</ul> 
@@ -189,8 +176,8 @@ const Resume = (props) => {
                               </div>
                       </div> 
                       <div className="tl7">
-                          <h1 className="supertl7"></h1>
-                              <div className="subtl7"><h1 className="altl7">Coding Dojo<img src={dojo} id="toppic"></img></h1>
+                          {/* <h1 className="supertl7"></h1> */}
+                              <div className="subtl7"><h1 className="altl7">Coding Dojo<img alt="reactivvsa210" src={dojo} id="toppic"></img></h1>
                            
                             <div className="lester">
                               <ul>Location: Bellevue, Washington</ul>

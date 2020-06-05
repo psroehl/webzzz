@@ -1,9 +1,6 @@
 import React, { useState } from 'react';
 import '../Css/Menu.css';
 import '../Css/Right.css';
-import Menu from './Menu';
-import Top from './Top';
-import TopA from './Top';
 import res from '../img/resume.png'
 import { Link } from '@reach/router';
 
@@ -35,7 +32,7 @@ const RightA = (props) => {
       return (
         <>
         <div className="Right">
-            <img src={res} className="rpic"/>
+            <img alt="rpic" src={res} className="rpic"/>
            { state.className ? <Link className="rtext" onClick={toggleclassName} to="/resume">Resume</Link> : <Link className="rtext" onClick={toggleclassName} to="/">Close</Link> }
       </div>
         
