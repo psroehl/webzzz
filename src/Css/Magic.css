@@ -1,0 +1,21 @@
+div {
+    font-size: 10px;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      margin-left: 5000px;
+    }
+    100% {
+        margin-left: 0px;
+    }
+  }
+  
+  @keyframes fadeOut {
+    0% {
+        margin-left: 0px;
+    }
+    100% {
+        margin-left: 5000px;
+    }
+  }

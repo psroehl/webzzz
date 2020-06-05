@@ -1,0 +1,33 @@
+.crefty {
+ 
+    background-color: whitesmoke;
+    color: #0bd3d3;
+    z-index: 10;
+    position: absolute;
+    margin-top: 10vh;
+    margin-left: 200px ;
+    width: 100%;
+    height: 80vh;
+    background-color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    position: absolute;
+    z-index: 5;
+    top: -600px;
+    -webkit-animation: vide 0.5s forwards;
+    animation: vide 0.5s forwards;
+   
+}
+
+.aboutmetext {
+    width: 500px;
+    height: 65%;
+    /* border: 1px solid royalblue; */
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+    margin-top: 105px;
+    text-align: center;
+    font-size: 12pt;
+}

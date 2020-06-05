@@ -1,0 +1,275 @@
+
+  .ilky {
+    height: 300px;
+    width: 300px;
+    border: black solid 1px;
+  }
+
+  .App-header {
+    background-color: #f890e7;
+    min-height: 100vh;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    z-index: -5;
+    
+  }
+  
+  .Left {
+    width: 35px;
+    min-height: 100vh;
+    background-color: whitesmoke;
+    float: left;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: width .2s ease-in-out;
+    vertical-align: top;
+    display: absolute;
+    z-index: 10;
+    animation: 1s ease-in-out 0s 1 slideInFromLeft;
+  }
+  
+  .Right {
+    width: 35px;
+    min-height: 100vh;
+    background-color: whitesmoke;
+    float: right;
+    display: flex;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    transition: width .2s ease-in-out;
+    z-index: 10;
+    animation: 1s ease-in-out 0s 1 slideInFromLeft;
+  }
+  
+  
+ 
+  
+ 
+  
+  .porttext {
+    font-size: 12px;
+    color: #0bd3d3;
+    transition: rotate .2s ease-in-out;
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+  }
+  
+  .porttextr {
+    font-size: 12px;
+    color: #0bd3d3;
+    transition: rotate .2s ease-in-out;
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    margin-left: 40px;
+    top: -800px;
+  }
+
+  .yeet{
+    width: 100%;
+    height: 35px;
+    background-color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    transition: height .2s ease-in-out;
+    position: absolute;
+    z-index: 10;
+    animation: .5s ease-in-out 1 trans;
+    transform: 
+    scale(4.0, 4.0)
+    ;
+   
+  }
+
+  .peet {
+    width: 100%;
+    height: 35px;
+    background-color: whitesmoke;
+    vertical-align: bottom;
+    margin: 0px;
+    position: absolute;
+    bottom: 0px;
+    transition: height .2s ease-in-out;
+    z-index: 10;
+    animation: .5s ease-in-out 1 trans;
+    transform: 
+    scale(4.0, 4.0)
+  }
+
+  .leet {
+    width: 35px;
+    min-height: 100vh;
+    background-color: whitesmoke;
+    float: left;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: width .2s ease-in-out;
+    vertical-align: top;
+    display: absolute;
+    z-index: 10;
+    animation: .5s ease-in-out 1 trans;
+    transform: 
+    scale(4.0, 4.0)
+  }
+
+  .reet {
+    width: 35px;
+    min-height: 100vh;
+    background-color: whitesmoke;
+    float: right;
+    display: flex;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    /* transition: width 1.2s ease-in-out; */
+    z-index: 10;
+    animation: .5s ease-in-out 1 trans;
+    transform: 
+    scale(4.0, 4.0)
+  }
+
+  @keyframes trans {
+    0% {
+      transform: scale(1.0, 1.0);
+    }
+    100% {
+      transform: scale(4.0, 4.0);
+    }
+  }
+ 
+  
+  .rtext {
+    font-size: 12px;
+    color: #0bd3d3;
+    transform: rotate(90deg);
+    transition: rotate .2s ease-in-out;
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    width: 40px;
+    margin-top: -10px;
+  }
+  
+
+  .logoe {
+    width: 250px;
+    margin-top: -70px;
+    margin-left: -50vw;
+    position: absolute;
+    transition: margin-left .5s ease-in-out;
+    z-index: 0;
+  }
+  
+  .ment{
+    display: block;
+    width: 20px;
+    height: 2px;
+    margin-bottom: 3px;
+    position: relative;
+    background-color: #0bd3d3;
+    border-radius: 3px;
+    margin-left: -10px;
+    transition: width .2s ease-in-out;
+    
+  }
+  
+  .picon {
+    margin-top: -5vh;
+    width: 30px;
+    z-index: 5;
+    position: absolute;
+    margin-left: -20px;
+    transition: margin-top .2s ease-in-out;
+  }
+  
+  .fholder {
+   margin-top: 5px;
+   
+  }
+  
+  .pth {
+    transition: margin-top .2s ease-in-out;
+  }
+  
+  .Left:hover{
+    width: 100px;
+    transition: width .2s ease-in-out;
+    margin-right: 10px;
+  }
+  
+  .Left:hover .ment{
+    width: 20px;
+    transition: width .2s ease-in-out;
+  }
+  
+  .Left:hover .menutext{
+    /* transform: rotate(0deg); */
+    transition: rotate .6s ease-in-out;
+  }
+  
+  .Bottom:hover {
+    height: 100px;
+    transition: height .2s ease-in-out;
+  }
+  
+  .porttext {
+    margin-top: 10px;
+    transition: margin-top .2s ease-in-out;
+    margin-left: -7px;
+  }
+  
+  .Bottom:hover .pth{
+    margin-top: 50px;
+    transition: margin-top .2s ease-in-out;
+  }
+  
+  .Bottom:hover .picon{
+    margin-top: 10px;
+    transition: margin-top .2s ease-in-out;
+   
+  }
+  
+  .Right:hover {
+    width: 100px;
+    transition: width .2s ease-in-out;
+  }
+  
+  .Right:hover .rtext{
+    transition: rotate .6s ease-in-out;
+  }
+  
+  .rpic {
+    width: 35px;
+    margin-left: -30px;
+    transition: ease-in-out;
+  }
+
+  .rpac {
+    margin-top: 50vh;
+    width: 35px;
+    margin-left: -75vw;
+    transition: ease-in-out;
+  }
+
+  
+  .Top:hover {
+    height: 100px;
+    transition: height .2s ease-in-out;
+  }
+  
+  .Top:hover .tttext{
+    margin-top: 30px;
+    transition: margin-top .2s ease-in-out;
+  }
+  
+  .Top:hover .logoe{
+    margin-left: -300px;
+    transition: margin-left .5s ease-in-out;
+  }

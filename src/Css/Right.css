@@ -1,0 +1,15 @@
+.menuright {
+    width: 85vw;
+    min-height: 100vh;
+    background-color: whitesmoke;
+    float: right;
+    display: absolute;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    /* vertical-align: top; */
+    transition: width .2s ease-in-out;
+    z-index: 10;
+
+} 
+

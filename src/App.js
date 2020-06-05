@@ -1,24 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import logor from './img/logosticker.png';
+import Portof from './img/portfolio.png';
+import res from './img/resume.png';
+import tab from './img/about.png';
+import Home from './JS/Home.js';
+import LeftA from './JS/Left';
+import { Router } from '@reach/router';
+import Menu from './JS/Menu.js';
+import About from './JS/About';
+import Resume from './JS/Resume';
+import Portfolio from './JS/Portfolio';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      
+        <Router>
+          
+            <Menu path="/menu"/>
+            <About path="/about"/>
+            <Resume path="/resume"/>
+            <Portfolio path="/portfolio"/>
+      </Router>
+      <Home/>
     </div>
   );
 }

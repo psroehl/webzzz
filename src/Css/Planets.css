@@ -1,0 +1,88 @@
+ 
+  .ticn {
+    width: 30px;
+    transition: margin-top .2s ease-in-out;
+  }
+  .plan {
+    margin-top: 100px;
+  }
+
+  .patha {
+    stroke-dasharray: 10000;
+    stroke-dashoffset: 10000;
+    animation: dash 45s linear forwards;
+   
+  }
+
+  @keyframes dash {
+    to {
+      stroke-dashoffset: 25;
+    }
+  }
+
+  .pathz {
+    stroke-dasharray: 6000;
+    stroke-dashoffset: 6000;
+    animation: dashz 15s linear forwards;
+  }
+
+  @keyframes dashz {
+    to {
+      stroke-dashoffset: 100;
+    }
+  }
+
+  .path {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: dash 15s linear forwards;
+  }
+  
+  @keyframes dash {
+    to {
+      stroke-dashoffset: 100;
+    }
+  }
+
+  .rocket {
+    stroke-dasharray: 6000;
+    stroke-dashoffset: 6000;
+    animation: dasher 25s linear forwards;
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    z-index: -3;
+    margin-top: 400px;
+  }
+
+  @keyframes dasher {
+    to {
+      stroke-dashoffset: 100;
+    }
+  }
+
+  .rocketholder {
+    position: ;
+    -webkit-animation:spin 64s linear infinite;
+    -moz-animation:spin 64s linear infinite;
+    animation:spin 64s linear infinite;
+    animation-delay: .1s;
+    width: 100px;
+    height: 100px;
+    /* border: 1px turquoise solid; */
+    border-radius: 100%;
+    margin-top: -100px;
+    margin-left: 50vw;
+    z-index: 1;
+  }
+
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
